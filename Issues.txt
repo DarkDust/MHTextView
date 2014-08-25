@@ -1,0 +1,7 @@
+* Better truncation:
+  * If the last line is short, the last characters of the last word are still
+    truncated sometimes instead of having "…" appended.
+  * No whole-words are truncated.
+
+* Support numberOfLines.
+
