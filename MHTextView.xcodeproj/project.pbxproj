@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49404735198D8A4600D32DED /* MHDefaultTextViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 49884A0E197C107500FC1111 /* MHDefaultTextViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49404736198D8A4600D32DED /* MHTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C48736198D79B30087153E /* MHTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49404737198D8A4600D32DED /* MHTextViewFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 49884A09197BD4AE00FC1111 /* MHTextViewFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49404738198D8A4600D32DED /* MHTextViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 49884A06197BD3A200FC1111 /* MHTextViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4940473A198D8A5500D32DED /* MHTextView+Drawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 495A766E198042AD0065B7BC /* MHTextView+Drawing.h */; };
+		49C48739198D79B30087153E /* MHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C48738198D79B30087153E /* MHTextView.m */; };
+		49C4873F198D79B30087153E /* libMHTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48734198D79B30087153E /* libMHTextView.a */; };
+		49C4874B198D79CD0087153E /* MHDefaultTextViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 49884A0F197C107500FC1111 /* MHDefaultTextViewLayout.m */; };
+		49C4874D198D79DB0087153E /* MHTextView+Drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A766D198041C00065B7BC /* MHTextView+Drawing.m */; };
+		49C4874E198D79E20087153E /* MHTextViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 49884A0C197BD76700FC1111 /* MHTextViewFrame.m */; };
+		49C4877A198D7BE30087153E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48778198D7BE30087153E /* Foundation.framework */; };
+		49C4877B198D7BE30087153E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49C48779198D7BE30087153E /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C48740198D79B30087153E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498849D5197BD21D00FC1111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C48733198D79B30087153E;
+			remoteInfo = MHTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		495A766D198041C00065B7BC /* MHTextView+Drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MHTextView+Drawing.m"; sourceTree = "<group>"; };
+		495A766E198042AD0065B7BC /* MHTextView+Drawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MHTextView+Drawing.h"; sourceTree = "<group>"; };
+		498849F8197BD21E00FC1111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498849F9197BD21E00FC1111 /* MHTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextViewTests.m; sourceTree = "<group>"; };
+		49884A06197BD3A200FC1111 /* MHTextViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTextViewLayout.h; sourceTree = "<group>"; };
+		49884A09197BD4AE00FC1111 /* MHTextViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTextViewFrame.h; sourceTree = "<group>"; };
+		49884A0C197BD76700FC1111 /* MHTextViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTextViewFrame.m; sourceTree = "<group>"; };
+		49884A0E197C107500FC1111 /* MHDefaultTextViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDefaultTextViewLayout.h; sourceTree = "<group>"; };
+		49884A0F197C107500FC1111 /* MHDefaultTextViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDefaultTextViewLayout.m; sourceTree = "<group>"; };
+		49C48734198D79B30087153E /* libMHTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMHTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C48736198D79B30087153E /* MHTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTextView.h; sourceTree = "<group>"; };
+		49C48738198D79B30087153E /* MHTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTextView.m; sourceTree = "<group>"; };
+		49C4873E198D79B30087153E /* MHTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C48778198D7BE30087153E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49C48779198D7BE30087153E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C48731198D79B30087153E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4877A198D7BE30087153E /* Foundation.framework in Frameworks */,
+				49C4877B198D7BE30087153E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4873B198D79B30087153E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4873F198D79B30087153E /* libMHTextView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498849D4197BD21D00FC1111 = {
+			isa = PBXGroup;
+			children = (
+				49C48735198D79B30087153E /* MHTextView */,
+				498849F6197BD21E00FC1111 /* MHTextViewTests */,
+				498849DE197BD21D00FC1111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498849DE197BD21D00FC1111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C48734198D79B30087153E /* libMHTextView.a */,
+				49C4873E198D79B30087153E /* MHTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498849F6197BD21E00FC1111 /* MHTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				498849F9197BD21E00FC1111 /* MHTextViewTests.m */,
+				498849F7197BD21E00FC1111 /* Supporting Files */,
+			);
+			path = MHTextViewTests;
+			sourceTree = "<group>";
+		};
+		498849F7197BD21E00FC1111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498849F8197BD21E00FC1111 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49C48735198D79B30087153E /* MHTextView */ = {
+			isa = PBXGroup;
+			children = (
+				49884A0E197C107500FC1111 /* MHDefaultTextViewLayout.h */,
+				49884A0F197C107500FC1111 /* MHDefaultTextViewLayout.m */,
+				49C48736198D79B30087153E /* MHTextView.h */,
+				49C48738198D79B30087153E /* MHTextView.m */,
+				495A766E198042AD0065B7BC /* MHTextView+Drawing.h */,
+				495A766D198041C00065B7BC /* MHTextView+Drawing.m */,
+				49884A09197BD4AE00FC1111 /* MHTextViewFrame.h */,
+				49884A0C197BD76700FC1111 /* MHTextViewFrame.m */,
+				49884A06197BD3A200FC1111 /* MHTextViewLayout.h */,
+				49C48778198D7BE30087153E /* Foundation.framework */,
+				49C48779198D7BE30087153E /* UIKit.framework */,
+			);
+			path = MHTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49404734198D8A3700D32DED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49404735198D8A4600D32DED /* MHDefaultTextViewLayout.h in Headers */,
+				49404736198D8A4600D32DED /* MHTextView.h in Headers */,
+				49404737198D8A4600D32DED /* MHTextViewFrame.h in Headers */,
+				49404738198D8A4600D32DED /* MHTextViewLayout.h in Headers */,
+				4940473A198D8A5500D32DED /* MHTextView+Drawing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49C48733198D79B30087153E /* MHTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C48745198D79B30087153E /* Build configuration list for PBXNativeTarget "MHTextView" */;
+			buildPhases = (
+				49C48730198D79B30087153E /* Sources */,
+				49C48731198D79B30087153E /* Frameworks */,
+				49404734198D8A3700D32DED /* Headers */,
+				4940473C198D8E9C00D32DED /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHTextView;
+			productName = MHTextView;
+			productReference = 49C48734198D79B30087153E /* libMHTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49C4873D198D79B30087153E /* MHTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C48748198D79B30087153E /* Build configuration list for PBXNativeTarget "MHTextViewTests" */;
+			buildPhases = (
+				49C4873A198D79B30087153E /* Sources */,
+				49C4873B198D79B30087153E /* Frameworks */,
+				49C4873C198D79B30087153E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C48741198D79B30087153E /* PBXTargetDependency */,
+			);
+			name = MHTextViewTests;
+			productName = MHTextViewTests;
+			productReference = 49C4873E198D79B30087153E /* MHTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498849D5197BD21D00FC1111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Marc Haisenko";
+				TargetAttributes = {
+					49C48733198D79B30087153E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					49C4873D198D79B30087153E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 49C48733198D79B30087153E;
+					};
+				};
+			};
+			buildConfigurationList = 498849D8197BD21D00FC1111 /* Build configuration list for PBXProject "MHTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498849D4197BD21D00FC1111;
+			productRefGroup = 498849DE197BD21D00FC1111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C48733198D79B30087153E /* MHTextView */,
+				49C4873D198D79B30087153E /* MHTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C4873C198D79B30087153E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4940473C198D8E9C00D32DED /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C48730198D79B30087153E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C4874B198D79CD0087153E /* MHDefaultTextViewLayout.m in Sources */,
+				49C48739198D79B30087153E /* MHTextView.m in Sources */,
+				49C4874E198D79E20087153E /* MHTextViewFrame.m in Sources */,
+				49C4874D198D79DB0087153E /* MHTextView+Drawing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4873A198D79B30087153E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C48741198D79B30087153E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C48733198D79B30087153E /* MHTextView */;
+			targetProxy = 49C48740198D79B30087153E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		498849FB197BD21E00FC1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		498849FC197BD21E00FC1111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C48746198D79B30087153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		49C48747198D79B30087153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GENERATE_MASTER_OBJECT_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		49C48749198D79B30087153E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MHTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49C4874A198D79B30087153E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MHTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498849D8197BD21D00FC1111 /* Build configuration list for PBXProject "MHTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498849FB197BD21E00FC1111 /* Debug */,
+				498849FC197BD21E00FC1111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C48745198D79B30087153E /* Build configuration list for PBXNativeTarget "MHTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C48746198D79B30087153E /* Debug */,
+				49C48747198D79B30087153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C48748198D79B30087153E /* Build configuration list for PBXNativeTarget "MHTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C48749198D79B30087153E /* Debug */,
+				49C4874A198D79B30087153E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498849D5197BD21D00FC1111 /* Project object */;
+}
