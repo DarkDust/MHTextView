@@ -31,13 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4912CDA0198D83C300A42DEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4912CD81198D83C300A42DEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4912CD88198D83C300A42DEE;
-			remoteInfo = MHTextViewDemo;
-		};
 		4912CDB4198D842F00A42DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4912CDAF198D842F00A42DEE /* MHTextView.xcodeproj */;
@@ -74,7 +67,6 @@
 		4912CD94198D83C300A42DEE /* BasicDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDemoViewController.m; sourceTree = "<group>"; };
 		4912CD97198D83C300A42DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4912CD99198D83C300A42DEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4912CD9F198D83C300A42DEE /* MHTextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHTextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4912CDAF198D842F00A42DEE /* MHTextView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MHTextView.xcodeproj; sourceTree = SOURCE_ROOT; };
 		4940473D198D91A200D32DED /* FillerTextGerman.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FillerTextGerman.txt; sourceTree = "<group>"; };
 		49404740198D91F800D32DED /* FillerTextEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FillerTextEnglish.txt; sourceTree = "<group>"; };
@@ -108,13 +100,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4912CD9C198D83C300A42DEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				4912CD89198D83C300A42DEE /* MHTextViewDemo.app */,
-				4912CD9F198D83C300A42DEE /* MHTextViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,24 +213,6 @@
 			productReference = 4912CD89198D83C300A42DEE /* MHTextViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4912CD9E198D83C300A42DEE /* MHTextViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4912CDAC198D83C300A42DEE /* Build configuration list for PBXNativeTarget "MHTextViewDemoTests" */;
-			buildPhases = (
-				4912CD9B198D83C300A42DEE /* Sources */,
-				4912CD9C198D83C300A42DEE /* Frameworks */,
-				4912CD9D198D83C300A42DEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4912CDA1198D83C300A42DEE /* PBXTargetDependency */,
-			);
-			name = MHTextViewDemoTests;
-			productName = MHTextViewDemoTests;
-			productReference = 4912CD9F198D83C300A42DEE /* MHTextViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -258,10 +224,6 @@
 				TargetAttributes = {
 					4912CD88198D83C300A42DEE = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					4912CD9E198D83C300A42DEE = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 4912CD88198D83C300A42DEE;
 					};
 				};
 			};
@@ -285,7 +247,6 @@
 			projectRoot = "";
 			targets = (
 				4912CD88198D83C300A42DEE /* MHTextViewDemo */,
-				4912CD9E198D83C300A42DEE /* MHTextViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -324,13 +285,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4912CD9D198D83C300A42DEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,21 +306,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4912CD9B198D83C300A42DEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4912CDA1198D83C300A42DEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4912CD88198D83C300A42DEE /* MHTextViewDemo */;
-			targetProxy = 4912CDA0198D83C300A42DEE /* PBXContainerItemProxy */;
-		};
 		4912CDB9198D844500A42DEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MHTextView;
@@ -488,40 +430,6 @@
 			};
 			name = Release;
 		};
-		4912CDAD198D83C300A42DEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHTextViewDemo.app/MHTextViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MHTextViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		4912CDAE198D83C300A42DEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MHTextViewDemo.app/MHTextViewDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MHTextViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -539,15 +447,6 @@
 			buildConfigurations = (
 				4912CDAA198D83C300A42DEE /* Debug */,
 				4912CDAB198D83C300A42DEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4912CDAC198D83C300A42DEE /* Build configuration list for PBXNativeTarget "MHTextViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4912CDAD198D83C300A42DEE /* Debug */,
-				4912CDAE198D83C300A42DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
