@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MHTextView"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A custom text view which supports multi-column layouts and exclusion paths."
 
   s.description  = <<-DESC
@@ -19,9 +19,10 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "BSD", :file => "LICENSE" }
   s.author       = { "Marc Haisenko" => "marc@darkdust.net" }
-  s.platform     = :ios, "5.0"
+  s.ios.deployment_target = "5.0"
+  s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/DarkDust/MHTextView.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/DarkDust/MHTextView.git", :tag => s.version }
 
   s.source_files  = "MHTextView"
   s.private_header_files = "MHTextView/*+*.h"
